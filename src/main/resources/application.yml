@@ -39,7 +39,7 @@ spring:
     connectionProperties: druid.stat.mergeSql=true;druid.stat.slowSqlMillis=5000
     platform: mysql
     schema: classpath:**/sql/data.sql
-    schema-password: root
+    schema-password: 2233d
     schema-username: root
     data-username: root
     data-password: 2233d
