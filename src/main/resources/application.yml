@@ -52,6 +52,12 @@ spring:
     hibernate:
       ddl-auto: none
 
+
+  rabbitmq:
+    host: 10.82.13.207
+    port: 5672
+    username: admin
+    password: admin
 mybatis:
   mapper-locations: classpath:mappers/*.xml
   type-aliases-package: com.infinova.sfdhf.entity
@@ -70,3 +76,4 @@ server:
   port: 8080
   servlet:
     context-path: /sdf
+
