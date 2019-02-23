@@ -73,7 +73,7 @@ logging:
     org:
       springframework: info
 server:
-  port: 8080
+  port: 8089
   servlet:
     context-path: /sdf
 
